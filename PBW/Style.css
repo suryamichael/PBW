@@ -1,0 +1,24 @@
+.NyobaArahBawah0 {
+    display:inline-block;
+}
+
+.NyobaArahBawah {
+    background-color: crimson;
+    color: white;
+    padding: 14px;
+    border: none;
+}
+
+.NyobaArahBawah1 {
+    display: none;
+    box-shadow: 8px 16px;
+}
+
+.NyobaArahBawah1 a {
+    display: block;
+    color: black;
+    padding: 20px;
+}
+
+.NyobaArahBawah1 :hover {background-color: brown;}
+.NyobaArahBawah0:hover .NyobaArahBawah1 {display: block;}

@@ -1,0 +1,69 @@
+*,
+html {
+    padding : 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "font sport";
+    src: url('../conthrax-sb.ttf');
+}
+
+.Container {
+    background: url(wallpaper.jpg);
+    color: rgb(24, 22, 22);
+    background-size: cover;
+}
+
+.Container-Navbar {
+    background-color: rgb(31, 58, 109);
+     display:flex;
+     align-items: center;
+     width: 100%;
+     height: 7vh;
+    padding: 1px;
+}
+
+.Container-list {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    margin: 6px;
+    font-size: 25px;
+    color: rgb(146, 214, 226);
+}
+
+.Container-list:hover {
+    background-color: rgb(68, 203, 212);
+    color: rgb(44, 21, 54);
+}
+
+
+.Container-Foto1 {
+    width: 5vh;
+    height: 5vh;
+    position: fixed;
+    right: 10vh;
+    top: 3vh;
+}
+
+.Container-Isian-Kiri {
+    background-image: linear-gradient(to right,rgba(140, 143, 146, 0.8), rgba(214, 209, 230, 0));
+    position: fixed;
+    bottom: 50vh;
+}
+
+.Container-Header {
+    font-family: 'font sport';
+    font-size: 60px;
+}
+
+.conthrax-sb {
+    font-family: font sport;
+}
+
+.Container-Penjelasan {
+    font-family: 'helvetica';
+    font-size:20px;
+}
+

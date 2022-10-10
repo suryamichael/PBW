@@ -1,0 +1,56 @@
+*,
+html {
+    padding : 0;
+    margin: 0;
+}
+
+.Container {
+    background: url(Pemandangan\ blue.png);
+    color: #fff;
+    background-size: 100%;
+}
+
+.Container-Navbar {
+    background-color: rgb(8, 8, 8);
+    display:flex;
+     justify-content: left;
+     align-items: center;
+     width: 100%;
+     height: 10vh;
+}
+
+.Container-Foto1 {
+    width: 5vh;
+    height: 5vh;
+    position: fixed;
+    right: 10vh;
+    top: 3vh;
+}
+
+.Container-list {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    color: rgb(189, 225, 236);
+}
+
+.Container-Isian-Kiri {
+    background-image: linear-gradient(to right,rgba(47, 155, 226, 0.8), rgba(155, 237, 240, 0));
+    position: fixed;
+    bottom: 50vh;
+}
+
+.Container-Header {
+    font-family: 'helvetica';
+    font-size: 60px;
+}
+
+.Container-Penjelasan {
+    font-family: 'helvetica';
+    font-size:20px;
+}
+
+.Container-footer {
+    
+}
